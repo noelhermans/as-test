@@ -4,7 +4,6 @@ metadata:
   labels:
     run: debug
   name: debug
-  namespace: default
 spec:
   containers:
   - image: brix4dayz/swiss-army-knife
