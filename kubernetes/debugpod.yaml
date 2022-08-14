@@ -3,11 +3,11 @@ kind: Pod
 metadata:
   labels:
     run: debug
-    color: blue
+    color: red
   name: debug
 spec:
   containers:
   - image: brix4dayz/swiss-army-knife
     name: debug
     command: [ "sh", "-c", "--" ]
-    args: [ "while true; do sleep 60; echo blue ; done;" ]
+    args: [ "while true; do sleep 60; echo red ; done;" ]
